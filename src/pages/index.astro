@@ -6,16 +6,15 @@ console.log("This runs in your terminal, not the browser!");
 
 <html>
   <head>
-    <!-- <meta charset="UTF-8" /> -->
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <!-- Specifies the character encoding for the HTML document. UTF-8 supports a wide range of characters. -->
+    <meta charset="UTF-8" />
+    <!-- Controls how the page is displayed on different devices. 
+      'width=device-width' sets the width to the device's screen width. 
+      'initial-scale=1.0' sets the initial zoom level to 100%. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
       Follow My Recipes - The Ultimate Recipe Platform for Content Creators
     </title>
-    <!-- <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    /> -->
   </head>
   <body class="bg-gray-50">
     <!-- Navigation -->
@@ -101,9 +100,9 @@ console.log("This runs in your terminal, not the browser!");
             <!-- Feature 1 -->
             <div class="flex flex-col items-center">
               <div
-                class="flex items-center justify-center h-12 w-12 rounded-md bg-emerald-700 text-white"
+                class="flex items-center justify-center h-12 w-12 rounded-md bg-emerald-200 text-3xl"
               >
-                <i class="fas fa-mobile-alt text-xl"></i>
+              📱
               </div>
               <h3 class="mt-6 text-lg font-medium text-gray-900">
                 Instagram-Ready Format
@@ -117,9 +116,9 @@ console.log("This runs in your terminal, not the browser!");
             <!-- Feature 2 -->
             <div class="flex flex-col items-center">
               <div
-                class="flex items-center justify-center h-12 w-12 rounded-md bg-emerald-700 text-white"
+                class="flex items-center justify-center h-12 w-12 rounded-md bg-emerald-200 text-3xl"
               >
-                <i class="fas fa-book text-xl"></i>
+              📔
               </div>
               <h3 class="mt-6 text-lg font-medium text-gray-900">
                 Recipe Management
@@ -133,9 +132,9 @@ console.log("This runs in your terminal, not the browser!");
             <!-- Feature 3 -->
             <div class="flex flex-col items-center">
               <div
-                class="flex items-center justify-center h-12 w-12 rounded-md bg-emerald-700 text-white"
+                class="flex items-center justify-center h-12 w-12 rounded-md bg-emerald-200 text-3xl"
               >
-                <i class="fas fa-users text-xl"></i>
+              🧑‍🍳
               </div>
               <h3 class="mt-6 text-lg font-medium text-gray-900">
                 Follower Experience
@@ -189,7 +188,7 @@ console.log("This runs in your terminal, not the browser!");
     <!-- Footer -->
     <footer class="bg-emerald-50">
       <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <!-- <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
             <h3
               class="text-sm font-semibold text-gray-400 tracking-wider uppercase"
@@ -266,12 +265,12 @@ console.log("This runs in your terminal, not the browser!");
               </li>
             </ul>
           </div>
-        </div>
-        <div class="mt-8 border-t border-gray-200 pt-8">
+        </div> -->
+        <!-- <div class="mt-8 border-t border-gray-200 pt-8"> -->
           <p class="text-base text-gray-400 text-center">
             &copy; 2024 Follow My Recipes. All rights reserved.
           </p>
-        </div>
+        <!-- </div> -->
       </div>
     </footer>
   </body>
