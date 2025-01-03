@@ -7,14 +7,21 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "deploy": "astro build && wrangler pages deploy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@astrojs/cloudflare": "^12.1.0",
     "@astrojs/tailwind": "^5.1.4",
     "astro": "^5.1.2",
+    "better-auth": "^1.1.8",
     "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241230.0",
+    "wrangler": "^3.99.0"
   }
 }

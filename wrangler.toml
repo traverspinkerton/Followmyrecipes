@@ -1,0 +1,12 @@
+name = "followmyrecipes"
+route = "followmyrecipes.com"
+
+[env.dev]
+route = "dev.example.com"
+
+[[ d1_databases ]]
+binding = "DB"
+database_name = "followmyrecipes"
+database_id = "58b650f3-de7a-4afc-a178-0eae0d59e55f"
+preview_database_id = "DB" # Required for Pages local development
+
